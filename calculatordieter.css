@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+
+
+#display{
+
+color:#d6d4d5;
+width:240px;
+height: 70px;
+font-size: 60px;
+padding: 10px;
+margin-left: 35px;
+margin-top: 15px;
+margin-bottom: 15px;
+background: #4d5440;
+border-radius: 25px;
+border-color: #4d5440;
+	border: none;
+
+}
+
+.clear{
+	margin-top: 47px;
+	margin-right: 75px;
+	padding-bottom: 60px;
+	width: 120px;
+	height: 80px;
+	border-radius: 250px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background: #700004;
+	color: #ffffff;
+	clip-path: inset(0px 0px 48px 0px);
+	font-size: 16px;
+	border-color: none;
+
+
+}	
+.clear:hover{background-color: aliceblue}
+input{
+color:#508298;
+width: 50px;
+height: 50px;
+font-size: 25px;
+padding: 10px;
+margin: 5px;
+margin-bottom: 17px; 
+margin-left: 12px;
+background: #d6d4d5;
+border-color: #d6d4d5;
+border-radius: 205px;
+	
+
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+ -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+
+}	
+
+
+
+#myCalculator{
+	background: #c9bea5;
+		padding: 20px 32px 20px 0px;
+		margin: auto;
+		width: 300px;
+		height: 450px;
+		text-align: right;
+		border-radius: 40px;
+	
+}
+.inputField{
+	margin-top: -50px;
+	
+}
+
+body{
+	background-image: radial-gradient(#508298 10%, transparent 20%),
+     radial-gradient(#4d5440 10%, transparent 20%);
+  background-color:  #d6d4d5;
+	opacity: 70%;
+  background-position: 0 0, 100px 100px;
+  background-size: 200px 200px;
+  height: 200px;
+  width: 100%;
+}
+.operator0{margin-left: 0px}
+
+
+.operatorequals{
+	background: #508298;
+	color: #d6d4d5;
+	height: 100px;
+	width: 100px;
+	clip-path: inset(0px 50px 0px 0px);
+	border-radius: 76px;
+	text-align: left;
+	text-indent: 10px;
+	margin-right: -82px}
+
+#row5{margin-top: -89px}
+#row4{margin-right: 70px;}
+
+
+
+.operator:hover{background-color: aliceblue}
+.operatorpoint:hover{background-color: aliceblue}
+.operatorequals:hover{background-color: aliceblue}
+.operatoradd:hover{background-color: aliceblue}
+.operator0:hover{background-color: aliceblue}
+.operator1:hover{background-color: aliceblue}
+.operator2:hover{background-color: aliceblue}
+.operator3:hover{background-color: aliceblue}
+.operator4:hover{background-color: aliceblue}
+.operator5:hover{background-color: aliceblue}
+.operator6:hover{background-color: aliceblue}
+.operator7:hover{background-color: aliceblue}
+.operator8:hover{background-color: aliceblue}
+.operator9:hover{background-color: aliceblue}
+
+
+
+
