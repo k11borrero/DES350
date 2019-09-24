@@ -1,0 +1,514 @@
+@charset "UTF-8";
+
+.body{
+	
+	
+	
+	
+	
+}
+.name{
+width: 40%;
+height: 539px;
+background-color:white;
+float: left;
+font-family:Helvetica, "Sans-serif";
+font-size: 60px;
+font-weight: bolder;
+padding-left: 70px;
+}
+
+.instructions{
+	font-family:Helvetica, "Sans-serif";
+font-size: 15px;
+font-weight: lighter;
+margin-top: 30px;
+}
+.principles{
+margin-top: -10px;
+width: 100%;
+height: 539px;
+background-color:#cc8787;
+font-family:Helvetica, "Sans-serif";
+font-size: 60px;
+font-weight: bolder;
+}
+.gray1{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+
+}
+.gray2{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray3{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray4{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.coral1{
+width: 41%;
+background-color:#b27070;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+font-color: #212121;
+padding-right: 68px;
+text-align: right;
+font-family:Helvetica, "Sans-serif";
+font-size: 60px;
+font-weight: bolder;
+}
+.gray5{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+}
+.gray6{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray7{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray8{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.coral2{
+
+background-color:#a56767;
+padding-top: 30px;
+height: 60px;
+margin-left: 45%;
+padding-left: 20px;
+font-color: #414141;
+font-family:Helvetica, "Sans-serif";
+font-size: 60px;
+font-weight: bolder;
+padding-left: 295px;
+}
+.gray9{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+}
+.gray10{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray11{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray12{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.coral3{
+width: 45%;
+background-color:#995c5c;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 10px;
+text-align: right;
+font-family:Helvetica, "Sans-serif";
+font-size: 60px;
+font-weight: bolder;
+}
+.gray13{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+}
+.gray14{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray15{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray16{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+
+.number5{
+	float: left;
+	font-family:Helvetica, "Sans-serif";
+	font-size: 60px;
+	font-weight: bolder;
+	padding-top: 32px;
+	padding-left: 110px;
+}
+.coral4{
+
+background-color:#895656;
+padding-top: 30px;
+height: 60px;
+margin-left: 45%;
+padding-left: 10px;
+}
+.gray17{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+}
+.gray18{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray19{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray20{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+
+.number6{
+	float: right;
+	font-family:Helvetica, "Sans-serif";
+	font-size: 60px;
+	font-weight: bolder;
+	padding-top: 32px;
+	padding-right: 200px;
+}
+.coral5{
+width: 33%;
+background-color:#7a4f4f;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+}
+.gray21{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+}
+.gray22{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray23{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray24{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.coral6{
+
+background-color:#724848;
+padding-top: 30px;
+height: 60px;
+margin-left: 45%;
+padding-left: 10px;
+font-family:Helvetica, "Sans-serif";
+font-size: 60px;
+font-weight: bolder;
+padding-left: 295px;
+}
+.gray25{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+}
+.gray26{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray27{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray28{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.coral7{
+width: 41%;
+background-color:#5b3b3b;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-right: 68px;
+text-align: right;
+font-family:Helvetica, "Sans-serif";
+font-size: 60px;
+font-weight: bolder;
+}
+.gray29{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+}
+.gray30{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray31{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray32{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.coral8{
+
+background-color:#472f2f;
+padding-top: 30px;
+height: 60px;
+margin-left: 45%;
+padding-left: 10px;
+font-family:Helvetica, "Sans-serif";
+font-size: 60px;
+font-weight: bolder;
+}
+.gray33{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+}
+.gray34{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray35{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray36{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.coral9{
+width: 41%;
+background-color:#3d2a2a;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 70px;
+font-family:Helvetica, "Sans-serif";
+font-size: 60px;
+font-weight: bolder;
+}
+.gray37{
+
+background-color:#dddbdb;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 180px;
+font-family:Helvetica, "Sans-serif";
+font-size: 30px;
+font-weight: lighter;
+
+}
+.gray38{
+
+background-color:#c4c2c2;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray39{
+
+background-color:#a8a5a5;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+.gray40{
+
+background-color:#8e8888;
+padding-top: 30px;
+height: 60px;
+margin-left: -10px;
+padding-left: 650px;
+}
+
+
+
+
+
