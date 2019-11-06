@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<style>
+
+html{
+background: #D76D0E;
+margin: 0px;
+padding: 0px}	
+
+.card{
+position:absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 40%;
+height: 90vh;
+background: url("nationalparksposter-01.jpg") no-repeat center;
+background-size: contain;
+
+}	
+.card:hover{
+		background: url("lastparksposter.gif") no-repeat center;
+	background-size: contain;
+
+	}
+#preload{
+	background: url("lastparksposter.gif") no-repeat center -9999px -9999px;
+	}
+
+
+</style>	
+
+</head>
+
+<body>
+
+<div class="card"></div>
+<div id="preload"></div>
+
+</body>
+</html>
