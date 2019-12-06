@@ -1,0 +1,544 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>svgwebsite</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
+<style>
+	
+	
+/* Style the header */
+
+body {
+	
+	background-color:#ea822d;
+	font-family: helvetica,Arial,sans-serif;
+	margin-left: 10%;
+	margin-top: 5%;
+	color: white;
+	width: 90%;
+	
+}	
+	.squareElement{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	width: 100%;
+	
+	
+}
+	
+.title{
+	font-size: 70px;
+	font-family: ultra,helvetica,Arial,sans-serif;
+	margin-left: 38%;
+	margin-top: 5%;
+	color: white;
+	z-index: 2;	
+	position: absolute;
+	}
+@media only screen and (max-width: 1000px){
+	
+.title{
+width: 40%;
+height:200px;
+font-family: ultra,helvetica,Arial,sans-serif;
+font-size: 20px;
+margin-left: 40%;
+margin-top: 10%;
+	}	
+}
+	
+.visit{
+	font-size: 50px;
+	font-family: ultra,helvetica,Arial,sans-serif;
+	margin-left: 0%;
+	margin-top: 6%;
+	color: white;
+	z-index: 2;	
+	position: absolute;
+	}	
+@media only screen and (max-width: 1000px){
+	
+.visit{
+width: 40%;
+height:200px;
+font-family: ultra,helvetica,Arial,sans-serif;
+font-size: 15px;
+margin-left: 0%;
+margin-top: 10%;
+	}	
+}
+	
+.est{
+	font-size: 20px;
+	font-family: helvetica,Arial,sans-serif;
+	margin-left: 65%;
+	margin-top: 35%;
+	color: white;
+	z-index: 2;	
+	position: absolute;
+	text-align: right;
+	line-height: 2em;
+	}
+@media only screen and (max-width: 1000px){
+	
+.est{
+width: 40%;
+height:200px;
+font-family: ultra regular,helvetica,Arial,sans-serif;
+font-size: 8px;
+margin-left: 36%;
+margin-top: 35%;
+line-height: 1.4em;
+	}	
+}
+	
+	.backgroundbox{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-color:#ea822d;
+		top: 800px;
+		left: 0px;
+		z-index: 1;
+	}
+
+		
+	
+	
+	
+.summary{
+		z-index: 4;
+		margin-top: 800px;
+		position: absolute;
+		font-size: 30px;
+		width: 50%;
+		margin-left: -50px;
+	font-family: ultra,helvetica,Arial,sans-serif;
+	}	
+@media only screen and (max-width: 1000px){
+	
+.summary{
+width: 90%;
+height:200px;
+font-family: ultra,helvetica,Arial,sans-serif;
+font-size: 15px;
+margin-left: -5%;
+margin-top: 80%;
+	}	
+}
+	
+.summary2{
+		z-index: 4;
+		margin-top: 150px;
+		position: absolute;
+		font-size: 30px;
+		width: 100%;
+		margin-left: 500px;
+	font-family: ultra,helvetica,Arial,sans-serif;
+	}	
+@media only screen and (max-width: 1000px){
+	
+.summary2{
+width: 90%;
+height:200px;
+font-family: ultra,helvetica,Arial,sans-serif;
+font-size: 15px;
+margin-left: 0%;
+margin-top: 30%;
+	}	
+}
+	
+
+.activities{
+		z-index: 4;
+		margin-top: 1600px;
+		position: absolute;
+		font-size: 20px;
+		width: 40%;
+		margin-left: -50px;
+		
+	}	
+@media only screen and (max-width: 1000px){
+	
+.activities{
+	margin-top: 800px;
+	position: absolute;
+	width: 200%;
+	margin-left: -20px;
+	font-size: 12px;
+		
+	}	
+}
+	
+.sightseeing{
+		position: absolute;
+	top: 1600px;
+	left: -20px;
+	z-index: 6;
+	width: 100%;
+	}
+@media only screen and (max-width: 1000px){
+	
+.sightseeing{
+	margin-top: -800px;
+	position: absolute;
+	width: 190%;
+	margin-left: -20px;
+	
+		
+	}	
+}	
+	
+.hiking{
+		position: absolute;
+	top: 1600px;
+	left: 0px;
+	z-index: 6;
+	width: 100%;
+	}
+@media only screen and (max-width: 1000px){
+	
+.hiking{
+	margin-top: -800px;
+	position: absolute;
+	width: 190%;
+	margin-left: -90px;
+	
+		
+	}	
+}			
+	
+.horseback{
+		position: absolute;
+	top: 1600px;
+	left: 20px;
+	z-index: 6;
+	width: 100%;
+	}
+@media only screen and (max-width: 1000px){
+	
+.horseback{
+	margin-top: -535px;
+	position: absolute;
+	width: 190%;
+	margin-left: -590px;
+	
+		
+	}	
+}				
+
+.camping{
+		position: absolute;
+	top: 1650px;
+	left: -20px;
+	z-index: 6;
+	width: 100%;
+	}
+@media only screen and (max-width: 1000px){
+	
+.camping{
+	margin-top: -820px;
+	position: absolute;
+	width: 190%;
+	margin-left: 60px;
+	
+		
+	}	
+}				
+	
+.bicycle{
+		position: absolute;
+	top: 1650px;
+	left: -20px;
+	z-index: 6;
+	width: 100%;
+	}	
+@media only screen and (max-width: 1000px){
+	
+.bicycle{
+	margin-top: -585px;
+	position: absolute;
+	width: 190%;
+	margin-left: -330px;		
+	}	
+}		
+	
+	
+	.leftcolumn{
+		display: inline-block;
+		float: left;
+		width: 31%;
+		padding-right: 3%;
+		overflow: hidden;
+	z-index: 10;
+	margin-top: 2670px;
+	margin-left: -60px;
+	margin-right: 80px;
+		}
+@media only screen and (max-width: 1000px){
+	
+.leftcolumn{
+	float: left;
+		width: 80%;
+		padding-right: 2%;
+		overflow: hidden;
+	z-index: 10;
+	margin-top: 1850px;
+	margin-left: 20px;
+	
+		
+	}	
+}		
+
+	
+.midcolumn{
+		display: inline-block;
+		float: left;
+		width: 31%;
+		padding-right: 3%;
+	z-index: 10;
+	margin-top: 2670px;
+	margin-left: -80px;
+	
+		}	
+@media only screen and (max-width: 1000px){
+	
+.midcolumn{
+		width: 80%;
+		padding-right: 2%;
+		overflow: hidden;
+	z-index: 10;
+	margin-top: 50px;
+	margin-left: 20px;
+	
+		
+	}	
+}	
+
+	
+.rightcolumn{
+		display: inline-block;
+		float: left;
+		width: 31%;
+		padding-right: 2%;
+	z-index: 10;
+	margin-top: 2670px;
+	
+	
+		}	
+@media only screen and (max-width: 1000px){
+	
+.rightcolumn{
+		width: 80%;
+		padding-right: 2%;
+		overflow: hidden;
+	z-index: 10;
+	margin-top: 50px;
+	margin-left: 20px;
+	
+		
+	}	
+}	
+.otherparks{
+		z-index: 4;
+		margin-top: 2600px;
+		position: absolute;
+		font-size: 16px;
+		width: 40%;
+		margin-left: -55px;
+		line-height: 1em;
+		
+	}	
+@media only screen and (max-width: 1000px){
+	
+.otherparks{
+	margin-top: 1750px;
+	position: absolute;
+	width: 190%;
+	margin-left: -15px;
+	font-size: 12px;
+		
+	}	
+}		
+	
+	
+p{
+		z-index: 6;
+		top: 3300px;
+	left: 850px;
+		position: absolute;
+		font-size: 35px;
+	}	
+@media only screen and (max-width: 1000px){
+	
+p{	
+		top: 3470px;
+	left: 187px;
+		position: absolute;
+		font-size: 20px;		
+	}	
+}	
+	
+.website{
+		z-index: 6;
+		top: 3400px;
+	left: 300px;
+		position: absolute;
+		font-size: 12px;
+	width: 880px;
+	text-align: right;
+	padding-bottom: 50px;
+		
+	}
+@media only screen and (max-width: 1000px){
+.website{
+		
+		top: 3530px;
+	left: -500px;
+		position: absolute;
+		font-size: 8px;
+	padding-bottom: 50px;
+	text-align: right;
+	}	
+}	
+	
+
+	</style>
+
+	
+	
+	
+<body>
+
+
+<div class="title" data-rellax-speed="1">Arches <br> National Park</div>
+<div class="visit" data-rellax-speed="1">Visit</div>
+<div class="est" data-rellax-speed="1">Est. 1929<br>38.7331° N, 109.5925° W<br>119.8 mi</div>
+	
+<div class="summary">Visit Arches to discover a landscape of contrasting colors, land forms and textures unlike any other in the world. The park has over 2,000 natural stone arches, in addition to hundreds of soaring pinnacles, massive fins and giant balanced rocks. 
+<div class="summary2">This red-rock wonderland will amaze you with its formations, refresh you with its trails, and inspire you with its sunsets.</div>
+	
+	
+</div>
+	
+
+<div class="activities">Arches National Park offers a variety of activities</div>
+	
+<div class="sightseeing" ><img src="sightseeing-3-03-03-03.svg" alt=""/></div>
+<div class="hiking" > <img src="hiking-3-03-03.svg" alt=""/></div>
+<div class="horseback" ><img src="horseback-3-03-03-03.svg" alt=""/></div>
+	
+	
+<div class="camping" ><img src="campin-3-03-03.svg" alt=""/></div>	
+<div class="bicycle" ><img src="biking-3-03-03.svg" alt=""/></div>	
+	
+<div class="otherparks">If you enjoyed visiting Arches National Park, <br><br>here are three other National Parks you can visit </div>	
+	
+
+	
+<p>
+	
+	<a href="https://www.nps.gov/index.htm">National Park Service</a></p>	
+	
+<div class="website">
+	<a href="https://www.nationalparks.org/explore-parks/arches-national-park">https://www.nationalparks.org/explore-parks/arches-national-park.htm</a><br>
+	<a href="https://www.nps.gov/zion/index.htm">https://www.nps.gov/zion/index.htm </a><br>
+	 <a href="https://www.nps.gov/brca/planyourvisit/index.htm">https://www.nps.gov/brca/planyourvisit/index.htm</a>
+	
+	</div>	
+	
+	
+	
+<div class="squareElement rellax" data-rellax-speed="2"> <img src="headernationalpark 3.svg" alt=""/></div>
+	
+<div class="squareElement rellax" data-rellax-speed="2"><img src="backmountain-02.svg" alt=""/> </div>	
+
+<div class="squareElement rellax" data-rellax-speed="2"><img src="closerbrownmountain-02.svg" alt=""/> </div>
+	
+<div class="squareElement rellax" data-rellax-speed="2"><img src="brownbackgroundmountain-02.svg" alt=""/> </div>
+	
+<div class="squareElement rellax" data-rellax-speed="5"><img src="scribblemountain-02.svg" alt=""/> </div>
+	
+<div class="squareElement rellax" data-rellax-speed="5"> <img src="neworangeandbrown-02.svg"  alt=""/></div>
+	
+<div class="squareElement rellax" data-rellax-speed="5"><img src="lightbrownmountain-02.svg" alt=""/> </div>
+	
+<div class="squareElement rellax" data-rellax-speed="7"><img src="shadow1-02.svg" alt=""/> </div>
+	
+<div class="squareElement rellax" data-rellax-speed="7"><img src="ombre1-02.svg" alt=""/> </div>
+	
+<div class="squareElement rellax" data-rellax-speed="7"><img src="shadow2-02.svg" alt=""/> </div>	
+	
+<div class="squareElement rellax" data-rellax-speed="7"><img src="newombre-02.svg" alt=""/> </div>
+	
+<div class="squareElement rellax" data-rellax-speed="7"><img src="redrock-02.svg" alt=""/> </div>
+	
+<div class="squareElement rellax" data-rellax-speed="7"><img src="arch-02.svg" alt=""/> </div>
+
+<div class="backgroundbox" ></div>
+	
+	
+<div class="leftcolumn">	
+	
+	<script type="text/javascript">
+var total_images = 3;
+var random_number = Math.floor((Math.random()*total_images));
+var random_img = new Array();
+random_img[0] = '<a href="page1.html"><img src="https://vweiss4.github.io/DES350/poster-2.gif" width="100%"></a>';
+random_img[1] = '<a href="page2.html"><img src="https://avelaz36.github.io/DES350/np_poster.gif" width="100%"></a>';
+random_img[2] = '<a href="page3.html"><img src="https://lpark25.github.io/DES350/Comp-1_1.gif" width="100%"></a>';
+document.write(random_img[random_number]);
+</script></div>
+	
+	
+<div class="midcolumn">
+		
+	<script type="text/javascript">
+var total_images = 3;
+var random_number = Math.floor((Math.random()*total_images));
+var random_img = new Array();
+random_img[0] = '<a href="page1.html"><img src="https://ahalam2.github.io/DES350/Yellowstone.gif" width="100%"></a>';
+random_img[1] = '<a href="page2.html"><img src="https://kdirnb2.github.io/DES350/newposter.gif" width="100%"></a>';
+random_img[2] = '<a href="page3.html"><img src="https://tmfriese.github.io/DES350/Comp-1_4.gif" width="100%"></a>';
+document.write(random_img[random_number]);
+</script></div>
+	
+
+<div class="rightcolumn">
+		
+	<script type="text/javascript">
+var total_images = 3;
+var random_number = Math.floor((Math.random()*total_images));
+var random_img = new Array();
+random_img[0] = '<a href="page1.html"><img src="https://donteking.github.io/DES350/AnimatedPoster.gif" width="100%"></a>';
+random_img[1] = '<a href="page2.html"><img src="https://gira006.github.io/DES350/poster_animation.gif" width="100%"></a>';
+random_img[2] = '<a href="page3.html"><img src="https://anhvyb.github.io/DES350/posterRRRb%203_1.gif" width="100%"></a>';
+document.write(random_img[random_number]);
+</script></div>
+
+
+<div class=""
+<!-- javascript -->
+<script type="text/javascript" src="rellax.js"></script>
+<script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script>
+	
+	
+
+
+	
+	</div>
+
+</body>
+</html>
